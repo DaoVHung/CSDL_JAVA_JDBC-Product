@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+    color: purple;
+    font-size: medium;
+}
+
+table tr td, th {
+    text-align: center;
+    border-radius: 5%;
+    font-family: "Courier new";
+}
+
+th {
+    color: darkred;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Courier new";
+    background-color: antiquewhite;
+}
+
+#t1 #t2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#t3 {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+
+}
+#a1{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    background-color: #EDEDED;
+}
+
+#delete {
+    color: red;
+}
+
+#update {
+    color: green;
+}
+
+
